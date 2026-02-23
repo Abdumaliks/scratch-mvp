@@ -1,0 +1,10 @@
+# Netlify настройки для Scratch MVP
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
